@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Make your own beats">
+    <meta name="robots" content="index,follow">
+    <title>Beat-Maker</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montez&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" 
+    integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <div class="app-name">
+        <h2>Beat Maker</h2>
+    </div>
+
+<div class="sequencer">
+<!-- ------------------KICK START ----------------->
+   
+        <!-- -------------GOOEY MENU--------------- -->
+    <div class="kick-track">
+        <div class="gooey-menu-container">
+            <div class="gooey-menu">
+                <div class="gooey-selected">
+                    <p>Classic Kick</p>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="g-option">
+                    <div class="gooey-option ">
+                        <input type="radio" class="gooey-radio" name="kick-select"  value="./sounds/kick-classic.wav"/>
+                        <label for="classickick">Classic Kick</label>
+                    </div>
+                    <div class="gooey-option ">
+                        <input type="radio" class="gooey-radio" name="kick-select"  value="./sounds/kick-heavy.wav"/>
+                        <label for="kickheavy">Kick Heavy</label>
+                    </div>
+                    <div class="gooey-option ">
+                        <input type="radio" class="gooey-radio" name="kick-select"  value="./sounds/kick-808.wav"/>
+                        <label for="808kick">808 Kick</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+           
+     
+
+
+    <div class="kicka">
+        <button data-track="0" class="mute volume">
+            <i class="fas fa-volume-up"></i>
+        </button> 
+            
+        <div class="kick pads">
+            <div class="pad kick-pad b0"></div>  
+            <div class="pad kick-pad b1"></div>  
+            <div class="pad kick-pad b2"></div>  
+            <div class="pad kick-pad b3"></div>  
+            <div class="pad kick-pad b4"></div>  
+            <div class="pad kick-pad b5"></div>  
+            <div class="pad kick-pad b6"></div>  
+            <div class="pad kick-pad b7"></div>          
+        </div>
+    </div>
+        
+    </div>
+    
+<!-- ------------------KICK END ----------------->
+
+<!-- ------------------SNARE START ----------------->
+<div class="snare-track">
+
+    <div class="gooey-menu-container">
+        <div class="gooey-menu">
+            <div class="gooey-selected">
+                <p>Acoustic Snare</p>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="g-option">
+            <div class="gooey-option ">
+                <input type="radio" class="gooey-radio" name="snare-select"  value="./sounds/snare-acoustic01.wav"/>
+                <label for="acousticsnare">Acoustic Snare</label>
+            </div>
+            <div class="gooey-option ">
+                 <input type="radio" class="gooey-radio" name="snare-select"  value="./sounds/snare-vinyl02.wav"/>
+                 <label for="snarevinyl">Snare Vinyl</label>
+             </div>
+             <div class="gooey-option ">
+                 <input type="radio" class="gooey-radio" name="snare-select" value="./sounds/snare-808.wav"/>
+                 <label for="808snare">808 Snare</label>
+             </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="snarea">
+        <button data-track="1" class="mute volume">
+            <i class="fas fa-volume-up"></i>
+        </button>   
+        <div class="snare pads">
+            <div class="pad snare-pad b0"></div> 
+            <div class="pad snare-pad b1"></div>   
+            <div class="pad snare-pad b2"></div>  
+            <div class="pad snare-pad b3"></div>  
+            <div class="pad snare-pad b4"></div>  
+            <div class="pad snare-pad b5"></div>  
+            <div class="pad snare-pad b6"></div>  
+            <div class="pad snare-pad b7"></div>
+        </div>
+    </div>
+    
+</div>
+<!-- ------------------SNARE END ----------------->
+
+<!-- ------------------HIHAT START ----------------->
+
+<div class="hihat-track">
+    <div class="gooey-menu-container">
+        <div class="gooey-menu">
+            <div class="gooey-selected">
+                <p>Acoustic Hihat</p>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="g-option">
+            <div class="gooey-option ">
+                <input type="radio" class="gooey-radio" name="hihat-select"  value="./sounds/hihat-acoustic01.wav"/>
+                <label for="acoustichihat">Acoustic Hihat</label>
+            </div>
+            <div class="gooey-option ">
+                 <input type="radio" class="gooey-radio" name="hihat-select"  value="./sounds/hihat-808.wav"/>
+                 <label for="808hihat">808 Hihat</label>
+             </div>
+             <div class="gooey-option ">
+                <input type="radio" class="gooey-radio" name="hihat-select"  value="./sounds/hihat-ring.wav"/>
+                <label for="hihatring">Hihat Ring</label>
+            </div>
+        
+            </div>
+        </div>
+    </div>
+    <div class="hihata">
+        <button data-track="2" class="mute volume">
+            <i class="fas fa-volume-up"></i>
+        </button>
+        <div class="hihat pads">
+            <div class="pad hihat-pad b0"></div>
+            <div class="pad hihat-pad b1"></div>  
+            <div class="pad hihat-pad b2"></div>  
+            <div class="pad hihat-pad b3"></div>  
+            <div class="pad hihat-pad b4"></div>  
+            <div class="pad hihat-pad b5"></div>  
+            <div class="pad hihat-pad b6"></div>  
+            <div class="pad hihat-pad b7"></div>    
+        </div>
+    </div>
+    
+</div>
+<!-- ------------------HIHAT END ----------------->
+
+
+<!-- ------------------PLAY START----------------->
+
+<div class="play-button">
+    <button class="btn btn-2 btn-2g">PLAY</button>
+</div>
+<!-- <input type="range" max="300" min="20" value="150"> -->
+<!-- ------------------PLAY  END ----------------->
+
+<audio  class="kick-audio" src="./sounds/kick-classic.wav"></audio>
+<audio  class="snare-audio" src="./sounds/snare-acoustic01.wav"></audio>
+<audio  class="hihat-audio" src="./sounds/hihat-acoustic01.wav"></audio>
+
+<div id="tempo">
+    <input type="range"  class="tempo-slider" min="20" max="300" value="150">
+    <p>Tempo: <span class="tempo-nr">150</span></p>
+</div>
+
+</div>
+
+<script src="components.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
