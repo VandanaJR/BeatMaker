@@ -13,7 +13,8 @@
   -moz-box-shadow: 0 0 5px #b9d2d2;
   -webkit-box-shadow: 0 0 5px #b9d2d2;
   box-shadow: 0 0 5px #b9d2d2;
-  opacity: 0;
+  //opacity: 0;
+  visibility: hidden;
 }
 
 .gooey-option:hover {
@@ -85,7 +86,8 @@
 }
 
 .gooey-active {
-  opacity: 1;
+  //opacity: 1;
+  visibility: visible;
   animation: option-animation 0.5s ease-in-out;
 }
 
