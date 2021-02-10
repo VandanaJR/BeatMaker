@@ -41,6 +41,7 @@
   border-radius: 50%;
   opacity: 0;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .gooey-option label {
@@ -73,6 +74,7 @@
   border-radius: 100px;
   -webkit-box-shadow: 0 0 5px #b9d2d2;
   box-shadow: 0 0 5px #b9d2d2;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .gooey-selected:hover {
@@ -262,8 +264,8 @@ svg {
             transform: scale(1);
   }
   to {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 
@@ -273,8 +275,8 @@ svg {
             transform: scale(1);
   }
   to {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
   }
 }
 
@@ -294,6 +296,7 @@ svg {
   color: inherit;
   background: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
   padding: 20px 60px;
   display: inline-block;
   margin: 5px 30px;
@@ -493,6 +496,10 @@ input[type="range"]:focus::-ms-fill-upper {
 body {
   font-family: "Montserrat", sans-serif;
   background: #090030;
+}
+
+button:focus {
+  outline: 0;
 }
 
 @media screen and (max-width: 1279px) {

@@ -37,6 +37,7 @@
   border-radius: 50%;
   opacity: 0;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .gooey-option label {
@@ -62,6 +63,7 @@
   -moz-box-shadow: 0 0 5px #b9d2d2;
   -webkit-box-shadow: 0 0 5px #b9d2d2;
   box-shadow: 0 0 5px #b9d2d2;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .gooey-selected:hover {

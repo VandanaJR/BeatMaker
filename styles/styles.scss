@@ -12,6 +12,9 @@ body {
   font-family: "Montserrat", sans-serif;
   background: #090030;
 }
+button:focus {
+  outline: 0;
+}
 
 @media screen and (max-width: 1279px) {
   .pad {
