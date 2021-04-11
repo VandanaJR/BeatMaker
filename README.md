@@ -1,2 +1,3 @@
 # BeatMaker
-Music making application
+Make your own music beats in seconds.
+Link:
